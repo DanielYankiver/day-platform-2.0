@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <div>Daniel Yankiver</div>
       </header>
     </div>
   );
