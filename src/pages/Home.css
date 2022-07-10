@@ -1,0 +1,9 @@
+.home-container {
+  height: 80%;
+  margin: 10px;
+  color: #66FF66;
+  border: 2px dashed #66FF66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

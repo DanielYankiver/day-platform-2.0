@@ -1,0 +1,22 @@
+.nav-bar-container {
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  height: 5%;
+  color: #66FF66;
+  border: 2px dashed #66FF66;
+  margin: 10px;
+}
+
+.nav-item {
+  color: #66FF66;
+  text-decoration: none;
+}
+
+nav a.active {
+  background-color: rgb(66, 65, 65);
+  padding-top: 2px;
+  padding-bottom: 1px;
+  padding-right: 4px;
+  padding-left: 4px;
+} 
