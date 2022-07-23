@@ -4,12 +4,14 @@
   color: #66FF66;
   /* border: 2px dashed #66FF66; */
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .bb-logo-container {
   display: flex;
   justify-content: center;
+  margin-top: 100px;
 }
 @keyframes hover {
   0% { top: 20px }
@@ -32,41 +34,48 @@
   100% { background-color: none; }
 }
 
-.home-title {
-  height: 20px;
-  margin: 30px;
+.first-name {
   display: flex;
   justify-content: center;
   /* animation: fadeIn 2s infinite;  */
+  font-size: 14px;
+  width: 200px;
+  margin-left: 50px;
+  margin-bottom: 4px;
+  margin-top: 20px;
 }
 
-.home-intro-container {
+.last-name {
   display: flex;
   justify-content: center;
-}
-
-.home-intro {
-  text-align: center;
-  width: 70%;
+  /* animation: fadeIn 2s infinite;  */
+  font-size: 14px;
+  width: 270px;
+  margin-left: 20px;
 }
 
 .ascii-button-container {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 140px;
 }
+
 
 .ascii-button-container a {
   text-decorations: none; 
   color: inherit;
 }
 
-.ascii-button{
+.ascii-button {
   border: 2px dotted #66FF66;
   margin-top: 30px;
   width: 270px;
   height: 40px;
   padding: 10px;
   cursor: pointer;
+}
+
+.ascii-button:hover {
+  background-color: rgb(66, 65, 65);
 }
 
