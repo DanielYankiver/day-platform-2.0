@@ -4,12 +4,22 @@
   color: #66FF66;
   border: 2px dashed #66FF66;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.github-logo {
+.logos-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.logos {
+  width: 40px;
   background: #66FF66;
   border-radius: 50%;
   border: 1px solid #66FF66;
+  margin: 20px;
 }
+
+

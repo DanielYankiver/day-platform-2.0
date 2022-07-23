@@ -11,6 +11,10 @@ import NoPage from "./pages/NoPage";
 import './App.css';
 
 function App() {
+
+  const now = new Date()
+  const year = now.getFullYear()
+
   return (
     <div className="App">
       {/* <header className="App-header">
@@ -40,6 +44,9 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Footer />
+      <div className="copyright">
+        ©{year} Daniel Yankiver
+      </div>
     </div>
   );
 }

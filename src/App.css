@@ -5,6 +5,13 @@
   height: 100vh;
 }
 
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: #66FF66;
+  font-size: 14px;
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;

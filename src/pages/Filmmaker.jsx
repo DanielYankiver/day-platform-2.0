@@ -8,7 +8,7 @@ function Filmmaker() {
           Showreel
         </div>
         <div className='showreel'>
-          <iframe src="https://player.vimeo.com/video/375538495?h=e5986dfa91"  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="https://player.vimeo.com/video/375538495?h=e5986dfa91"  frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
         </div>
         <div>
           Check out all of my other films and videos on vimeo:
