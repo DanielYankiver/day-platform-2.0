@@ -4,6 +4,17 @@
   color: #66FF66;
   border: 2px dashed #66FF66;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.showreel {
+  margin: 50px;
+  border: 2px dashed #66FF66;
+}
+
+.showreel iframe {
+  width: 640px;
+  height: 360px;
 }
