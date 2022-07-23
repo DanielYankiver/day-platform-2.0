@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import Navbar from './components/OldNavbar';
+import React from 'react';
 import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
