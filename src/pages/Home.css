@@ -22,7 +22,7 @@
 .bb-logo {
   width: 200px;
   position: relative;
-  /* border: 5px solid black; */
+  border: 2px dashed #66FF66;
   border-radius: 120px;
   /* animation: hover linear 1s infinite alternate;  */
 }
