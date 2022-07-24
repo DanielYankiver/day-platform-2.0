@@ -2,7 +2,7 @@
   /* text-align: center; */
   background-color: rgb(20, 20, 20);
   width: 100%;
-  height: 100vh;
+  height: 98vh;
 }
 
 .copyright {
@@ -10,6 +10,7 @@
   justify-content: center;
   color: #66FF66;
   font-size: 14px;
+  margin-top: 16px;
 }
 
 /* .App-logo {

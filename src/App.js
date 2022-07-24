@@ -46,6 +46,7 @@ function App() {
       <div className="copyright">
         ©{year} Daniel Yankiver
       </div>
+      <div className='bottom-spacer'/>
     </div>
   );
 }
