@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../images/bbLogoGreen.png'
 import './Home.css';
 
 
 function Home() {
+  const [togglePhoto, setTogglePhoto] = useState(false)  
+
     return (
       <div className='home-container'>
         <div className='home-wrapper'>
