@@ -26,6 +26,7 @@
   position: relative;
   border: 2px dashed #66FF66;
   border-radius: 120px;
+  cursor: pointer;
   /* animation: hover linear 1s infinite alternate;  */
 }
 

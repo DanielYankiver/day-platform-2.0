@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../images/bbLogoGreen.png'
+import whiteLogo from '../images/bbLogo.png'
 import './Home.css';
 
 
@@ -9,12 +10,18 @@ function Home() {
     return (
       <div className='home-container'>
         <div className='home-wrapper'>
-          <div className='bb-logo-container'>
+          {togglePhoto && (<div className='bb-logo-container' onClick={() => setTogglePhoto(!togglePhoto)}>
             <img
               className='bb-logo'
               src={logo}
             />
-          </div>
+          </div>)}  
+          {!togglePhoto && (<div className='bb-logo-container' onClick={() => setTogglePhoto(!togglePhoto)}>
+            <img
+              className='bb-logo'
+              src={whiteLogo}
+            />
+          </div>)}  
           <div className='first-name'>
             █▀▄ ▄▀█ █▄░█ █ █▀▀ █░░
             █▄▀ █▀█ █░▀█ █ ██▄ █▄▄
