@@ -27,8 +27,8 @@ nav a.active {
 }
 
 .resume {
-  border: 1px dotted #66FF66;
-  padding: 2px;
+  border: 1px solid #66FF66;
+  padding: 4px;
 } 
 
 .resume:hover {

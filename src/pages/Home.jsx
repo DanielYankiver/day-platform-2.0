@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../images/bbLogoGreen.png'
 import whiteLogo from '../images/bbLogo.png'
+import headShot from '../images/headshot.jpg'
 import './Home.css';
 
 
@@ -13,13 +14,13 @@ function Home() {
           {togglePhoto && (<div className='bb-logo-container' onClick={() => setTogglePhoto(!togglePhoto)}>
             <img
               className='bb-logo'
-              src={logo}
+              src={headShot}
             />
           </div>)}  
           {!togglePhoto && (<div className='bb-logo-container' onClick={() => setTogglePhoto(!togglePhoto)}>
             <img
               className='bb-logo'
-              src={whiteLogo}
+              src={logo}
             />
           </div>)}  
           <div className='first-name'>
