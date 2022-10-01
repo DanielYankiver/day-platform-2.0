@@ -9,8 +9,10 @@ function SoftwareEngineer() {
           Software Engineer Page
         </div> */}
         {/* <img href={floppy} className='floppy'/> */}
-        <div className='floppy-background'>
-
+        {/* ADD a retro floppy disk or computer  */}
+        {/* Use shields to show languages */}
+        <div className='skills'>
+          LIST ALL: <br/> Languages, Frameworks, Libraries, Tools & Skills
         </div>
       </div> 
     );

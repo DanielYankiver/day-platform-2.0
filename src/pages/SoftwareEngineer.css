@@ -8,9 +8,6 @@
   align-items: center;
 }
 
-.floppy-background {
-  width: 200px;
-  height: 200px;
-  background-color: #66FF66;
-  border-radius: 10px 50px 10px 10px;
+.skills {
+  text-align: center;
 }
