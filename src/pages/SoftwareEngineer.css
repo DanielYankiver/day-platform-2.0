@@ -9,5 +9,15 @@
 }
 
 .skills {
-  text-align: center;
+  /* text-align: center; */
+}
+
+.shields-container {
+  /* margin-left: 100px;
+  margin-right: 100px; */
+}
+
+.shields-container img {
+  margin: 4px;
+  border: 2px solid #66FF66; 
 }
