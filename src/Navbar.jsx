@@ -10,9 +10,9 @@ function Navbar() {
       <NavLink className="nav-item" to="/">
         <img className="bb-logo-nav" src={logo} />
       </NavLink>
-      <NavLink className="nav-item" to="/about">
+      {/* <NavLink className="nav-item" to="/about">
         About
-      </NavLink>
+      </NavLink> */}
       <NavLink className="nav-item" to="/softwareengineer">
         Software Engineer
       </NavLink>

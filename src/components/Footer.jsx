@@ -24,11 +24,11 @@ export default function Footer() {
           <img className="logos linkedin-logo" src={medium} />
         </a>
       </div>
-      <div className="ascii-button-container">
+      {/* <div className="ascii-button-container">
         <a href="https://www.linkedin.com/in/daniel-yankiver/" target="_blank" rel="noopener noreferrer">
           <div className="ascii-button">█▀▀ █▀█ █▄░█ ▀█▀ ▄▀█ █▀▀ ▀█▀ █▄▄ █▄█ █░▀█ ░█░ █▀█ █▄▄ ░█░</div>
         </a>
-      </div>
+      </div> */}
       <div className="copyright">©{year} Daniel Yankiver</div>
       <div className="bottom-spacer" />
     </div>
