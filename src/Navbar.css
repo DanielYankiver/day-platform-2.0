@@ -1,15 +1,15 @@
 .nav-bar-container {
-  display: flex; 
+  display: flex;
   justify-content: space-around;
   align-items: center;
   height: 5%;
-  color: #66FF66;
-  border: 2px dashed #66FF66;
+  color: #66ff66;
+  border: 2px dashed #66ff66;
   margin: 10px;
 }
 
 .nav-item {
-  color: #66FF66;
+  color: #66ff66;
   text-decoration: none;
 }
 
@@ -19,18 +19,27 @@ nav a.active {
   padding-bottom: 1px;
   padding-right: 4px;
   padding-left: 4px;
-} 
+}
 
-.resume a {
+/* .resume a {
   text-decoration: none;
   color: inherit;
 }
 
 .resume {
-  border: 1px solid #66FF66;
+  border: 1px solid #66ff66;
   padding: 4px;
-} 
+}
 
 .resume:hover {
   background-color: rgb(66, 65, 65);
+} */
+
+.bb-logo-nav {
+  width: 20px;
+  /* position: relative; */
+  /* border: 2px dashed #66ff66; */
+  border-radius: 120px;
+  cursor: pointer;
+  /* animation: hover linear 1s infinite alternate;  */
 }

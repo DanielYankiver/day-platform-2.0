@@ -1,5 +1,5 @@
-import React from 'react';
-import Footer from './components/Footer';
+import React from "react";
+import Footer from "./components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
@@ -7,13 +7,9 @@ import About from "./pages/About";
 import SoftwareEngineer from "./pages/SoftwareEngineer";
 import Filmmaker from "./pages/Filmmaker";
 import NoPage from "./pages/NoPage";
-import './App.css';
+import "./App.css";
 
 function App() {
-
-  const now = new Date()
-  const year = now.getFullYear()
-
   return (
     <div className="App">
       {/* <header className="App-header">
@@ -34,19 +30,15 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<Home />}/>
-            <Route path="About" element={<About />}/>
-            <Route path="SoftwareEngineer" element={<SoftwareEngineer />}/>
-            <Route path="Filmmaker" element={<Filmmaker />}/>
-            <Route path="*" element={<NoPage />}/>
+            <Route index element={<Home />} />
+            <Route path="About" element={<About />} />
+            <Route path="SoftwareEngineer" element={<SoftwareEngineer />} />
+            <Route path="Filmmaker" element={<Filmmaker />} />
+            <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
       <Footer />
-      <div className="copyright">
-        ©{year} Daniel Yankiver
-      </div>
-      <div className='bottom-spacer'/>
     </div>
   );
 }

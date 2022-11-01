@@ -1,38 +1,56 @@
 .home-container {
-  height: 78%;
-  margin: 10px;
-  color: #66FF66;
-  /* border: 2px dashed #66FF66; */
   display: flex;
   justify-content: center;
+  margin: 120px;
+  color: #66ff66;
   align-items: center;
+}
+
+.click-me {
+  /* color: red; */
+  display: flex;
+  justify-content: center;
 }
 
 .bb-logo-container {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 @keyframes hover {
-  0% { top: 20px }
-  25% { top: 15px }
-  50% { top: 10px }
-  75% { top: 5px }
-  100% { top: 0px }
+  0% {
+    top: 20px;
+  }
+  25% {
+    top: 15px;
+  }
+  50% {
+    top: 10px;
+  }
+  75% {
+    top: 5px;
+  }
+  100% {
+    top: 0px;
+  }
 }
 
 .bb-logo {
   width: 200px;
   position: relative;
-  border: 2px dashed #66FF66;
+  border: 2px dashed #66ff66;
   border-radius: 120px;
   cursor: pointer;
   /* animation: hover linear 1s infinite alternate;  */
 }
 
 @keyframes fadeIn {
-  0% { background-color: rgb(66, 65, 65); }
-  100% { background-color: none; }
+  0% {
+    background-color: rgb(66, 65, 65);
+  }
+  100% {
+    background-color: none;
+  }
 }
 
 .first-name {
@@ -43,7 +61,7 @@
   width: 200px;
   margin-left: 50px;
   margin-bottom: 4px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .last-name {
@@ -55,7 +73,27 @@
   margin-left: 20px;
 }
 
-.ascii-button-container {
+.resume a {
+  text-decoration: none;
+  color: inherit;
+  border: 1px dotted #66ff66;
+  padding: 4px;
+  margin-top: 40px;
+}
+
+.resume {
+  /* border: 1px solid #66ff66; */
+  padding: 4px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.resume a:hover {
+  background-color: rgb(66, 65, 65);
+}
+
+/* .ascii-button-container {
   display: flex;
   justify-content: center;
   margin-top: 100px;
@@ -79,5 +117,4 @@
 
 .ascii-button:hover {
   background-color: rgb(66, 65, 65);
-}
-
+} */
