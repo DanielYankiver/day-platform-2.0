@@ -1,23 +1,30 @@
 .software-engineer-container {
-  height: 78%;
+  /* height: 78%; */
   margin: 10px;
-  color: #66FF66;
+  color: #66ff66;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
+.experience {
+  margin-top: 40px;
+  text-align: center;
+}
+
 .skills {
-  /* text-align: center; */
+  text-align: center;
+  margin-top: 20px;
 }
 
 .shields-container {
   /* margin-left: 100px;
   margin-right: 100px; */
+  /* width: 80%; */
 }
 
 .shields-container img {
   margin: 4px;
-  border: 2px solid #66FF66; 
+  border: 2px solid #66ff66;
 }

@@ -23,13 +23,20 @@ function Home() {
           </div>
         )}
         <div className="click-me">^ Click Me </div>
-        <div className="first-name">█▀▄ ▄▀█ █▄░█ █ █▀▀ █░░ █▄▀ █▀█ █░▀█ █ ██▄ █▄▄</div>
-        <div className="last-name">█▄█ ▄▀█ █▄░█ █▄▀ █ █░█ █▀▀ █▀█ ░█░ █▀█ █░▀█ █░█ █ ▀▄▀ ██▄ █▀▄</div>
         <div className="resume">
           <a href={resume} target="_blank" rel="noopener noreferrer">
             my_resume.pdf
           </a>
         </div>
+        <div className="name-container">
+          {/* <div className="first-name">█▀▄ ▄▀█ █▄░█ █ █▀▀ █░░ █▄▀ █▀█ █░▀█ █ ██▄ █▄▄</div>
+          <div className="last-name">█▄█ ▄▀█ █▄░█ █▄▀ █ █░█ █▀▀ █▀█ ░█░ █▀█ █░▀█ █░█ █ ▀▄▀ ██▄ █▀▄</div> */}
+          <div className="name">DANIEL YANKIVER</div>
+          <div className="info">Creative software engineer with a background in filmmaking.</div>
+        </div>
+        {/* <div>
+          <div className="my-info">Creative software engineer with a background in filmmaking.</div>
+        </div> */}
       </div>
     </div>
   );
