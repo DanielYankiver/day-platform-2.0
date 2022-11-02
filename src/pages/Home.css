@@ -1,7 +1,7 @@
 .home-container {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 40px;
   color: #66ff66;
   align-items: center;
 }
@@ -116,12 +116,12 @@
 .ascii-button-container {
   display: flex;
   justify-content: center;
-  /* margin-top: 100px; */
+  margin-top: 60px;
 }
 
 .ascii-button-container a {
   text-decorations: none;
-  color: inherit;
+  color: #66ff66;
 }
 
 .ascii-button {

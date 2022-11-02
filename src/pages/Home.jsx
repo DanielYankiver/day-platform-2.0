@@ -12,8 +12,11 @@ function Home() {
   return (
     <div>
       <div className="ascii-button-container">
-      <a href="https://www.linkedin.com/in/daniel-yankiver/" target="_blank" rel="noopener noreferrer">
-        <div className="ascii-button">█▀▀ █▀█ █▄░█ ▀█▀ ▄▀█ █▀▀ ▀█▀ █▄▄ █▄█ █░▀█ ░█░ █▀█ █▄▄ ░█░</div>
+        <a href="https://www.linkedin.com/in/daniel-yankiver/" target="_blank" rel="noopener noreferrer">
+        <div className="ascii-button">
+          █▀▀ █▀█ █▄░█ ▀█▀ ▄▀█ █▀▀ ▀█▀
+          █▄▄ █▄█ █░▀█ ░█░ █▀█ █▄▄ ░█░
+        </div>
       </a>
     </div>
     <div className="home-container">

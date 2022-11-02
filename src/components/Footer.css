@@ -1,5 +1,5 @@
 .footer-container {
-  width: 94vw;
+  width: 98%;
   height: 16%;
   margin: 10px;
   color: #66ff66;
@@ -10,6 +10,7 @@
   align-items: center;
   position: absolute;
   bottom: 0;
+  background-color: rgb(20, 20, 20);;
 }
 
 .logos-wrapper {
@@ -64,6 +65,8 @@
   /* position: absolute;
   bottom: 0; */
   margin-top: 2px;
+  position: absolute;
+  bottom: 2px;
 }
 
 .my-info {
