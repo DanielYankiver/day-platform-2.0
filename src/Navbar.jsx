@@ -8,15 +8,15 @@ function Navbar() {
   return (
     <nav className="nav-bar-container">
       <NavLink className="nav-item" to="/">
-        <img className="bb-logo-nav" src={logo} />
+        <img className="bb-logo-nav logo" src={logo} />
       </NavLink>
       {/* <NavLink className="nav-item" to="/about">
         About
       </NavLink> */}
-      <NavLink className="nav-item" to="/softwareengineer">
+      <NavLink className="nav-item se" to="/softwareengineer">
         Software Engineer
       </NavLink>
-      <NavLink className="nav-item" to="/filmmaker">
+      <NavLink className="nav-item film" to="/filmmaker">
         Filmmaker
       </NavLink>
       {/* <div className="resume">

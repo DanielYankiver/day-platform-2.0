@@ -6,7 +6,8 @@ function SoftwareEngineer() {
   return (
     <div className="software-engineer-container">
       {/* <div className="experience">Creative Software Engineer with a background in Filmmaking.</div> */}
-      <div className="skills">Languages, Frameworks, Libraries, Tools & Skills:</div>
+      <div className="skills">
+        MY LANGUAGES, FRAMEWORKS, LIBRARIES, TOOLS & SKILLS:</div>
       <div className="shields-container" align="center">
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="javascript" />
         <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="react" />
