@@ -14,11 +14,12 @@
 }
 
 nav a.active {
-  background-color: rgb(66, 65, 65);
-  padding-top: 2px;
+  text-decoration: underline;
+  /* background-color: rgb(66, 65, 65); */
+  /* padding-top: 2px;
   padding-bottom: 1px;
   padding-right: 4px;
-  padding-left: 4px;
+  padding-left: 4px; */
 }
 
 /* .resume a {
